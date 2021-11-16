@@ -66,4 +66,43 @@ Factorial
          cout << "Factorial of the number is =" << factorial << endl;
          return 0;
       }
+     
+  
+Table of any given number till 10
+
+      #include <iostream>
+      using namespace std;
+
+      int main()
+      {
+          int n;
+          int i;
+          cout << "Enter a number that you want with a table of 10: ";
+          cin >> n;
+          for (int i = 1; i <= 10; ++i)
+          {
+              cout << n << " * " << i << " = " << n * i << endl;
+          }
+
+          return 0;
+      }
+      
+Table of any given number till 12
+
+      #include <iostream>
+      using namespace std;
+
+      int main()
+      {
+          int n;
+          int i;
+          cout << "Enter a number that you want with a table of 10: ";
+          cin >> n;
+          for (int i = 1; i <= 12; ++i)
+          {
+              cout << n << " * " << i << " = " << n * i << endl;
+          }
+
+          return 0;
+      }
       
